@@ -1,0 +1,44 @@
+{
+    "buyingList" : [
+        {
+            "email": "1@1.com",
+            "idOfPost": "1",
+            "eventDate": "2011-04-23T18:25:43.511Z",
+            "author": "Ace",
+            "price": "1"
+        },
+        
+        {
+            "email": "2@2.com",
+            "idOfPost": "2",
+            "eventDate": "2012-04-23T18:25:43.511Z",
+            "author": "Bravo",
+            "price": "2"
+        },
+
+        {
+            "email": "3@3.com",
+            "idOfPost": "3",
+            "eventDate": "2013-04-23T18:25:43.511Z",
+            "author": "Charlie",
+            "price": "3"
+        },
+    ],
+    
+    "sellingList" : [
+        {
+            "email": "4@4.com",
+            "idOfPost": "4",
+            "eventDate": "2014-04-23T18:25:43.511Z",
+            "author": "Delta",
+            "price": "4"
+        },
+        {
+            "email": "5@5.com",
+            "idOfPost": "5",
+            "eventDate": "2015-04-23T18:25:43.511Z",
+            "author": "Yeezus",
+            "price": "5"
+        },
+    ]
+}

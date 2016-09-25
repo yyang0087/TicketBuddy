@@ -7,37 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00B14156E5B0AFCE8E35C54 /* Pods_TicketBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947D7E516A833B7975E3376D /* Pods_TicketBuddy.framework */; };
+		F905D18A1D96756D00998349 /* BuyingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F905D1891D96756D00998349 /* BuyingMenu.swift */; };
+		F905D1901D96817B00998349 /* EntryProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F905D18F1D96817B00998349 /* EntryProtocols.swift */; };
+		F905D1941D96857F00998349 /* ListOfSellers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F905D1931D96857F00998349 /* ListOfSellers.swift */; };
+		F905D1981D96CC5900998349 /* PostID.swift in Sources */ = {isa = PBXBuildFile; fileRef = F905D1971D96CC5900998349 /* PostID.swift */; };
+		F905D19A1D96D1D800998349 /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F905D1991D96D1D800998349 /* NetworkServices.swift */; };
+		F905D19D1D96D56700998349 /* TicketBuddy.json in Resources */ = {isa = PBXBuildFile; fileRef = F905D19C1D96D56700998349 /* TicketBuddy.json */; };
+		F905D1A11D96E4D300998349 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F905D1A01D96E4D300998349 /* Post.swift */; };
+		F905D1A31D96F61000998349 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F905D1A21D96F61000998349 /* GoogleService-Info.plist */; };
+		F905D1A51D97034A00998349 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F905D1A41D97034A00998349 /* LoginVC.swift */; };
+		F905D1AC1D97938D00998349 /* 14457348_1785702955021247_7657828524006733030_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F905D1A71D97938D00998349 /* 14457348_1785702955021247_7657828524006733030_n.jpg */; };
+		F905D1AD1D97938D00998349 /* 14484766_1785702951687914_5233511049632125048_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F905D1A81D97938D00998349 /* 14484766_1785702951687914_5233511049632125048_n.jpg */; };
+		F905D1AE1D97938D00998349 /* 14449962_1785702945021248_1344296818824552407_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F905D1A91D97938D00998349 /* 14449962_1785702945021248_1344296818824552407_n.jpg */; };
+		F905D1AF1D97938D00998349 /* 14462718_1785702948354581_6448540725047440955_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F905D1AA1D97938D00998349 /* 14462718_1785702948354581_6448540725047440955_n.jpg */; };
+		F905D1B01D97938D00998349 /* 14468590_1785555005036042_9008374754600226336_o (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = F905D1AB1D97938D00998349 /* 14468590_1785555005036042_9008374754600226336_o (1).jpg */; };
 		F9EAE6601D96635200369D36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EAE65F1D96635200369D36 /* AppDelegate.swift */; };
-		F9EAE6621D96635200369D36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EAE6611D96635200369D36 /* ViewController.swift */; };
 		F9EAE6651D96635200369D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EAE6631D96635200369D36 /* Main.storyboard */; };
 		F9EAE6681D96635200369D36 /* TicketBuddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9EAE6661D96635200369D36 /* TicketBuddy.xcdatamodeld */; };
 		F9EAE66A1D96635200369D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9EAE6691D96635200369D36 /* Assets.xcassets */; };
 		F9EAE66D1D96635200369D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EAE66B1D96635200369D36 /* LaunchScreen.storyboard */; };
-		F9EAE6781D96635200369D36 /* TicketBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EAE6771D96635200369D36 /* TicketBuddyTests.swift */; };
+		F9EAE6851D96698900369D36 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EAE6841D96698900369D36 /* Home.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F9EAE6741D96635200369D36 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F9EAE6541D96635100369D36 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F9EAE65B1D96635100369D36;
-			remoteInfo = TicketBuddy;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		4F80B5DD2AA8D30948CF4493 /* Pods-TicketBuddyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketBuddyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TicketBuddyTests/Pods-TicketBuddyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AA639D4748049C7954CFD77 /* Pods-TicketBuddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketBuddyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TicketBuddyTests/Pods-TicketBuddyTests.release.xcconfig"; sourceTree = "<group>"; };
+		80A424D0550363C410050056 /* Pods_TicketBuddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicketBuddyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		947D7E516A833B7975E3376D /* Pods_TicketBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicketBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		974ABFC7A56D8A75A6FEE33B /* Pods-TicketBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketBuddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-TicketBuddy/Pods-TicketBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		D4BE1DF23DBE5DED78D37569 /* Pods-TicketBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketBuddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TicketBuddy/Pods-TicketBuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		F905D1891D96756D00998349 /* BuyingMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyingMenu.swift; sourceTree = "<group>"; };
+		F905D18F1D96817B00998349 /* EntryProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryProtocols.swift; path = ../EntryProtocols.swift; sourceTree = "<group>"; };
+		F905D1931D96857F00998349 /* ListOfSellers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfSellers.swift; sourceTree = "<group>"; };
+		F905D1971D96CC5900998349 /* PostID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostID.swift; sourceTree = "<group>"; };
+		F905D1991D96D1D800998349 /* NetworkServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkServices.swift; path = TicketBuddy/Model/NetworkServices.swift; sourceTree = "<group>"; };
+		F905D19C1D96D56700998349 /* TicketBuddy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TicketBuddy.json; sourceTree = "<group>"; };
+		F905D1A01D96E4D300998349 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F905D1A21D96F61000998349 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F905D1A41D97034A00998349 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		F905D1A61D9709F800998349 /* TicketBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TicketBuddy.entitlements; sourceTree = "<group>"; };
+		F905D1A71D97938D00998349 /* 14457348_1785702955021247_7657828524006733030_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14457348_1785702955021247_7657828524006733030_n.jpg; sourceTree = "<group>"; };
+		F905D1A81D97938D00998349 /* 14484766_1785702951687914_5233511049632125048_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14484766_1785702951687914_5233511049632125048_n.jpg; sourceTree = "<group>"; };
+		F905D1A91D97938D00998349 /* 14449962_1785702945021248_1344296818824552407_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14449962_1785702945021248_1344296818824552407_n.jpg; sourceTree = "<group>"; };
+		F905D1AA1D97938D00998349 /* 14462718_1785702948354581_6448540725047440955_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14462718_1785702948354581_6448540725047440955_n.jpg; sourceTree = "<group>"; };
+		F905D1AB1D97938D00998349 /* 14468590_1785555005036042_9008374754600226336_o (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14468590_1785555005036042_9008374754600226336_o (1).jpg"; sourceTree = "<group>"; };
 		F9EAE65C1D96635200369D36 /* TicketBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9EAE65F1D96635200369D36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9EAE6611D96635200369D36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9EAE6641D96635200369D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9EAE6671D96635200369D36 /* TicketBuddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TicketBuddy.xcdatamodel; sourceTree = "<group>"; };
 		F9EAE6691D96635200369D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9EAE66C1D96635200369D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9EAE66E1D96635200369D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9EAE6731D96635200369D36 /* TicketBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9EAE6771D96635200369D36 /* TicketBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketBuddyTests.swift; sourceTree = "<group>"; };
 		F9EAE6791D96635200369D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9EAE6841D96698900369D36 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Home.swift; path = ../Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,25 +69,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9EAE6701D96635200369D36 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B00B14156E5B0AFCE8E35C54 /* Pods_TicketBuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17A25D50628DE1CC79C9257E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4BE1DF23DBE5DED78D37569 /* Pods-TicketBuddy.debug.xcconfig */,
+				974ABFC7A56D8A75A6FEE33B /* Pods-TicketBuddy.release.xcconfig */,
+				4F80B5DD2AA8D30948CF4493 /* Pods-TicketBuddyTests.debug.xcconfig */,
+				5AA639D4748049C7954CFD77 /* Pods-TicketBuddyTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		759253AEA35A44995CE3A33C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				947D7E516A833B7975E3376D /* Pods_TicketBuddy.framework */,
+				80A424D0550363C410050056 /* Pods_TicketBuddyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F905D19B1D96D1FA00998349 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F905D1A01D96E4D300998349 /* Post.swift */,
+				F905D19C1D96D56700998349 /* TicketBuddy.json */,
+				F905D1991D96D1D800998349 /* NetworkServices.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		F9EAE6531D96635100369D36 = {
 			isa = PBXGroup;
 			children = (
+				F905D19B1D96D1FA00998349 /* Model */,
 				F9EAE65E1D96635200369D36 /* TicketBuddy */,
 				F9EAE6761D96635200369D36 /* TicketBuddyTests */,
 				F9EAE65D1D96635200369D36 /* Products */,
+				17A25D50628DE1CC79C9257E /* Pods */,
+				759253AEA35A44995CE3A33C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				F9EAE65C1D96635200369D36 /* TicketBuddy.app */,
-				F9EAE6731D96635200369D36 /* TicketBuddyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,12 +129,24 @@
 		F9EAE65E1D96635200369D36 /* TicketBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				F905D18F1D96817B00998349 /* EntryProtocols.swift */,
+				F905D1A61D9709F800998349 /* TicketBuddy.entitlements */,
+				F9EAE6841D96698900369D36 /* Home.swift */,
 				F9EAE65F1D96635200369D36 /* AppDelegate.swift */,
-				F9EAE6611D96635200369D36 /* ViewController.swift */,
 				F9EAE6631D96635200369D36 /* Main.storyboard */,
+				F905D1A41D97034A00998349 /* LoginVC.swift */,
+				F905D1931D96857F00998349 /* ListOfSellers.swift */,
+				F905D1971D96CC5900998349 /* PostID.swift */,
+				F905D1891D96756D00998349 /* BuyingMenu.swift */,
+				F905D1A71D97938D00998349 /* 14457348_1785702955021247_7657828524006733030_n.jpg */,
+				F905D1A81D97938D00998349 /* 14484766_1785702951687914_5233511049632125048_n.jpg */,
+				F905D1A91D97938D00998349 /* 14449962_1785702945021248_1344296818824552407_n.jpg */,
+				F905D1AA1D97938D00998349 /* 14462718_1785702948354581_6448540725047440955_n.jpg */,
+				F905D1AB1D97938D00998349 /* 14468590_1785555005036042_9008374754600226336_o (1).jpg */,
 				F9EAE6691D96635200369D36 /* Assets.xcassets */,
 				F9EAE66B1D96635200369D36 /* LaunchScreen.storyboard */,
 				F9EAE66E1D96635200369D36 /* Info.plist */,
+				F905D1A21D96F61000998349 /* GoogleService-Info.plist */,
 				F9EAE6661D96635200369D36 /* TicketBuddy.xcdatamodeld */,
 			);
 			path = TicketBuddy;
@@ -106,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9EAE67C1D96635200369D36 /* Build configuration list for PBXNativeTarget "TicketBuddy" */;
 			buildPhases = (
+				7391ECD77A8317DA9E715365 /* [CP] Check Pods Manifest.lock */,
 				F9EAE6581D96635100369D36 /* Sources */,
 				F9EAE6591D96635100369D36 /* Frameworks */,
 				F9EAE65A1D96635100369D36 /* Resources */,
+				0DF65D390242670127E6127E /* [CP] Embed Pods Frameworks */,
+				79332DABFFC09936F2EB1377 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -118,24 +183,6 @@
 			productName = TicketBuddy;
 			productReference = F9EAE65C1D96635200369D36 /* TicketBuddy.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F9EAE6721D96635200369D36 /* TicketBuddyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F9EAE67F1D96635200369D36 /* Build configuration list for PBXNativeTarget "TicketBuddyTests" */;
-			buildPhases = (
-				F9EAE66F1D96635200369D36 /* Sources */,
-				F9EAE6701D96635200369D36 /* Frameworks */,
-				F9EAE6711D96635200369D36 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F9EAE6751D96635200369D36 /* PBXTargetDependency */,
-			);
-			name = TicketBuddyTests;
-			productName = TicketBuddyTests;
-			productReference = F9EAE6731D96635200369D36 /* TicketBuddyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -149,12 +196,13 @@
 				TargetAttributes = {
 					F9EAE65B1D96635100369D36 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DE72KL3SZ6;
 						ProvisioningStyle = Automatic;
-					};
-					F9EAE6721D96635200369D36 = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = F9EAE65B1D96635100369D36;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -172,7 +220,6 @@
 			projectRoot = "";
 			targets = (
 				F9EAE65B1D96635100369D36 /* TicketBuddy */,
-				F9EAE6721D96635200369D36 /* TicketBuddyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -182,49 +229,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F905D1AE1D97938D00998349 /* 14449962_1785702945021248_1344296818824552407_n.jpg in Resources */,
+				F905D19D1D96D56700998349 /* TicketBuddy.json in Resources */,
 				F9EAE66D1D96635200369D36 /* LaunchScreen.storyboard in Resources */,
+				F905D1A31D96F61000998349 /* GoogleService-Info.plist in Resources */,
+				F905D1B01D97938D00998349 /* 14468590_1785555005036042_9008374754600226336_o (1).jpg in Resources */,
+				F905D1AD1D97938D00998349 /* 14484766_1785702951687914_5233511049632125048_n.jpg in Resources */,
 				F9EAE66A1D96635200369D36 /* Assets.xcassets in Resources */,
+				F905D1AF1D97938D00998349 /* 14462718_1785702948354581_6448540725047440955_n.jpg in Resources */,
+				F905D1AC1D97938D00998349 /* 14457348_1785702955021247_7657828524006733030_n.jpg in Resources */,
 				F9EAE6651D96635200369D36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9EAE6711D96635200369D36 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DF65D390242670127E6127E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicketBuddy/Pods-TicketBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		7391ECD77A8317DA9E715365 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79332DABFFC09936F2EB1377 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicketBuddy/Pods-TicketBuddy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9EAE6581D96635100369D36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F905D1901D96817B00998349 /* EntryProtocols.swift in Sources */,
 				F9EAE6681D96635200369D36 /* TicketBuddy.xcdatamodeld in Sources */,
-				F9EAE6621D96635200369D36 /* ViewController.swift in Sources */,
+				F9EAE6851D96698900369D36 /* Home.swift in Sources */,
+				F905D1941D96857F00998349 /* ListOfSellers.swift in Sources */,
+				F905D1A51D97034A00998349 /* LoginVC.swift in Sources */,
+				F905D18A1D96756D00998349 /* BuyingMenu.swift in Sources */,
+				F905D1981D96CC5900998349 /* PostID.swift in Sources */,
+				F905D1A11D96E4D300998349 /* Post.swift in Sources */,
+				F905D19A1D96D1D800998349 /* NetworkServices.swift in Sources */,
 				F9EAE6601D96635200369D36 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9EAE66F1D96635200369D36 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F9EAE6781D96635200369D36 /* TicketBuddyTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F9EAE6751D96635200369D36 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F9EAE65B1D96635100369D36 /* TicketBuddy */;
-			targetProxy = F9EAE6741D96635200369D36 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F9EAE6631D96635200369D36 /* Main.storyboard */ = {
@@ -341,8 +427,11 @@
 		};
 		F9EAE67D1D96635200369D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4BE1DF23DBE5DED78D37569 /* Pods-TicketBuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TicketBuddy/TicketBuddy.entitlements;
+				DEVELOPMENT_TEAM = DE72KL3SZ6;
 				INFOPLIST_FILE = TicketBuddy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HackGT.TicketBuddy;
@@ -353,41 +442,16 @@
 		};
 		F9EAE67E1D96635200369D36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 974ABFC7A56D8A75A6FEE33B /* Pods-TicketBuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TicketBuddy/TicketBuddy.entitlements;
+				DEVELOPMENT_TEAM = DE72KL3SZ6;
 				INFOPLIST_FILE = TicketBuddy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HackGT.TicketBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		F9EAE6801D96635200369D36 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TicketBuddyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = HackGT.TicketBuddyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicketBuddy.app/TicketBuddy";
-			};
-			name = Debug;
-		};
-		F9EAE6811D96635200369D36 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TicketBuddyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = HackGT.TicketBuddyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicketBuddy.app/TicketBuddy";
 			};
 			name = Release;
 		};
@@ -410,14 +474,7 @@
 				F9EAE67E1D96635200369D36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F9EAE67F1D96635200369D36 /* Build configuration list for PBXNativeTarget "TicketBuddyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F9EAE6801D96635200369D36 /* Debug */,
-				F9EAE6811D96635200369D36 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
